@@ -1,9 +1,9 @@
-# 🧮 Bonding Curve Token — Solidity Implementation
+#  Bonding Curve Token — Solidity Implementation
 
 This project demonstrates how to **translate a mathematical model** into a **secure, efficient Solidity smart contract**.  
 It implements a **bonding curve** — a common model in DeFi used for dynamic token pricing based on supply and demand.
 
-## 📖 Overview
+##  Overview
 
 A bonding curve defines the relationship between a token’s price and its circulating supply.  
 In this implementation, the token price increases linearly as more tokens are minted.
@@ -18,7 +18,7 @@ cost = BASE_PRICE * amount + 0.5 * PRICE_SLOPE * amount²
 ```
 When selling tokens, the payout (revenue) follows the reverse equation.
 
-## ⚙️ Smart Contract Details
+##  Smart Contract Details
 
 **Contract:** `BondingCurveToken.sol`  
 **Compiler Version:** Solidity ^0.8.20
@@ -30,14 +30,14 @@ When selling tokens, the payout (revenue) follows the reverse equation.
 - Secure balance and supply management  
 - Refund mechanism for excess ETH payments  
 
-## 🧠 Why It Matters
+##  Why It Matters
 
 This contract demonstrates:
 - Translating **mathematical models** into Solidity  
 - Handling **precision**, **gas optimization**, and **security**  
 - Implementing **continuous pricing functions** for DeFi
 
-## 🚀 How to Run Locally (Optional)
+##  How to Run Locally (Optional)
 
 Using [Hardhat](https://hardhat.org/):
 
@@ -72,11 +72,11 @@ Then run:
 npx hardhat run scripts/deploy.js --network localhost
 ```
 
-## 👤 Author
+##  Author
 
 **Abdussalam Mustapha**  
 Full-Stack & Smart Contract Developer  
 GitHub: [abdussalam-mustapha](https://github.com/abdussalam-mustapha)
 
-## 🪙 License
+##  License
 MIT License
